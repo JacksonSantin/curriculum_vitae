@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #ffffff;
+  background-color: #202020;
+}
+
+body::-webkit-scrollbar {
+  display: none;             
+}
+
+body, button {
+  font: 500 15px 'Roboto Mono', sans-serif;
+}
+
+h2, h3, h4, h5 {
+  font: 600 24px Nunito, sans-serif;
+  margin: 20px 0;
+  color: #ffffff;
+}

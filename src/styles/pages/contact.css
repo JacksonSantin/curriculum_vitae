@@ -1,0 +1,24 @@
+#page-landing .content-wrapper section.section-contact .form-control {
+  border: 0;
+  border-radius: 0;
+
+  background: transparent;
+  border-bottom: 1px solid #aaaaaa;
+  box-shadow: none;
+  color: #cccccc;
+
+  margin-bottom: 15px;
+}
+
+#page-landing .content-wrapper section.section-contact button {
+  color: #cccccc;
+  border: 1px solid #cccccc;
+  border-radius: 0;
+  transition: 0.2s color;
+
+  margin-top: 10px;
+}
+
+#page-landing .content-wrapper section.section-contact button:hover {
+  color: #ffffff;
+}
