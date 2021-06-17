@@ -23,5 +23,5 @@ yarn-debug.log*
 yarn-error.log*
 
 # folder
-/src/files
-/src/images
+web/src/files/*
+web/src/images/*
