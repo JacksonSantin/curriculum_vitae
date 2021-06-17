@@ -1,21 +1,6 @@
 <h1 align="center">
   <img alt="Logo JDS" src="./src/images/logo.png">
 </h1>
-<p align="center">
-  <img alt="Language Count" scr="https://img.shields.io/github/languages/count/JacksonSantin/curriculum_vitae">
-
-  <img alt="Repository Size" scr="https://img.shields.io/github/repo-size/JacksonSantin/curriculum_vitae">
-
-  <img alt="Javascript Percent" scr="https://img.shields.io/github/languages/top/JacksonSantin/curriculum_vitae">
-  
-  <img alt="Licence" scr="https://img.shields.io/github/license/JacksonSantin/curriculum_vitae">
-  
-  <img alt="Twitter" scr="https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FDhanyelJack">
-  
-  <img alt="Last Commit" scr="https://img.shields.io/github/last-commit/JacksonSantin/curriculum_vitae">
-  
-  <img alt="Feito por Jackson" scr="https://img.shields.io/badge/Feito por-Jackson-success">
-</p>
 
 <h1 align="center">
   Curriculum Vitae
