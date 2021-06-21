@@ -1,10 +1,6 @@
-import { useState } from 'react';
-
-import { Link } from "react-router-dom";
-
 import '../styles/pages/about.css';
 
-import { FiDownload, FiEdit, FiFacebook, FiGithub, FiInstagram, FiLinkedin, FiTwitter } from "react-icons/fi";
+import { FiEdit, FiFacebook, FiGithub, FiInstagram, FiLinkedin, FiTwitter } from "react-icons/fi";
 import { FaCode } from 'react-icons/fa';
 import { IoBaseballOutline } from "react-icons/io5";
 
@@ -17,12 +13,7 @@ import imgJavascript from "../images/javascript.png";
 import imgJava from "../images/java.png";
 import imgTypescript from "../images/typescript.png";
 
-import ReactTooltip from "react-tooltip";
-
-const urlToDownload = "https://jdssistemas.com/files/curriculum_vitae.pdf";
-
 function About() {
-  const [download, setDownload] = useState("");
   return (
     <section id="about">
       <div className="container">
@@ -101,10 +92,6 @@ function About() {
                 <a href="https://github.com/JacksonSantin" target="_blank" rel="noopener noreferrer">
                   <FiGithub size={26} color="#cecece" />
                 </a>
-                <button onClick={() => setDownload(urlToDownload)}>
-                  <FiDownload size={26} color="#101010" />
-                </button>
-                {download && (<iframe src={download} style={{ display: 'none' }}></iframe>)}
               </div>
             </section>
           </div>
