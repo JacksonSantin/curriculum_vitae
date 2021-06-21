@@ -83,10 +83,10 @@ function SkillEducation() {
                       <div className="icon-holder-time wow fadeIn" style={{ visibility: 'visible', animationName: 'fadeIn' }}>
                         <FiCircle size={26} color="#cecece" />
                       </div>
+                      <h3 className="year-mobile d-none"> 2020 </h3>
                       <h4 className="time-title"> UPF - Universidade de Passo Fundo </h4>
                       <h5 className="time-semitag"> ADS (Análise e Desenvolvimento de Sistemas) </h5>
                       <p> Formado no Curso Superior Tecnólogo em Análise e Desenvolvimento de Sistemas. </p>
-                      <h3 className="year-mobile d-none"> 2020 </h3>
                     </div>
                   </div>
                   <div className="col-sm-12">
@@ -97,10 +97,10 @@ function SkillEducation() {
                       <div className="icon-holder-time wow fadeIn" style={{ visibility: 'visible', animationName: 'fadeIn' }}>
                         <FiCircle size={26} color="#cecece" />
                       </div>
+                      <h3 className="year-mobile d-none"> 2020 </h3>
                       <h4 className="time-title"> ROCKETSEAT </h4>
                       <h5 className="time-semitag"> Projeto Proffy </h5>
                       <p> Projeto Proffy desenvolvido e aprendido com a equipe da Rocketseat. </p>
-                      <h3 className="year-mobile d-none"> 2020 </h3>
                     </div>
                   </div>
                   <div className="col-sm-12">
@@ -111,10 +111,10 @@ function SkillEducation() {
                       <div className="icon-holder-time wow fadeIn" style={{ visibility: 'visible', animationName: 'fadeIn' }}>
                         <FiCircle size={26} color="#cecece" />
                       </div>
+                      <h3 className="year-mobile d-none"> 2016 </h3>
                       <h4 className="time-title"> IESTA - Instituto Estadual Santo Tomás de Aquino </h4>
                       <h5 className="time-semitag"> Ensino Médio </h5>
                       <p> Ensino Médio Completo </p>
-                      <h3 className="year-mobile d-none"> 2016 </h3>
                     </div>
                   </div>
                   <div className="col-sm-12">
@@ -125,10 +125,10 @@ function SkillEducation() {
                       <div className="icon-holder-time wow fadeIn" style={{ visibility: 'visible', animationName: 'fadeIn' }}>
                         <FiCircle size={26} color="#cecece" />
                       </div>
+                      <h3 className="year-mobile d-none"> 2015 - 2016 </h3>
                       <h4 className="time-title"> SENAI </h4>
                       <h5 className="time-semitag"> Assistente Administrativo - 800hs </h5>
                       <p> Formado em Assistente Administrativo na modalidade de aprendizagem industrial. </p>
-                      <h3 className="year-mobile d-none"> 2015 - 2016 </h3>
                     </div>
                   </div>
                 </div>

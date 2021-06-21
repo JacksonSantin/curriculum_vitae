@@ -53,7 +53,7 @@
     display: none;
   }
   #page-landing .content-wrapper section.section-experience .year-mobile {
-    display: block;
+    display: block !important;
   }
 }
 

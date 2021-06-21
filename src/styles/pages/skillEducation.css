@@ -123,6 +123,6 @@
     display: none;
   }
   #page-landing .content-wrapper section.section-education .year-mobile {
-    display: block;
+    display: block !important;
   }
 }
