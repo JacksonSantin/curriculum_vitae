@@ -21,13 +21,14 @@ function ExperienceTestimonials() {
                   <div className="col-sm-12">
                     <div className="time-item">
                       <div className="time-year">
-                        2018 - Present
+                        2018 - Presente
                       </div>
                       <div className="icon-holder-time wow fadeIn" style={{ visibility: 'visible', animationName: 'fadeIn' }}>
                         <FiCircle size={26} color="#cecece" />
                       </div>
                       <h4 className="time-title"> VipWeb Soluções em Tecnologia / SIGASOFT </h4>
                       <h5 className="time-semitag"> Dev Front-end </h5>
+                      <h3 className="year-mobile d-none"> 2018 - Presente </h3>
                     </div>
                   </div>
                   <div className="col-sm-12">
@@ -40,18 +41,20 @@ function ExperienceTestimonials() {
                       </div>
                       <h4 className="time-title"> VipWeb Soluções em Tecnologia / SIGASOFT </h4>
                       <h5 className="time-semitag"> Suporte </h5>
+                      <h3 className="year-mobile d-none"> 2018 - 2019 </h3>
                     </div>
                   </div>
                   <div className="col-sm-12">
                     <div className="time-item">
                       <div className="time-year">
-                        2017-2018
+                        2017 - 2018
                       </div>
                       <div className="icon-holder-time wow fadeIn" style={{ visibility: 'visible', animationName: 'fadeIn' }}>
                         <FiCircle size={26} color="#cecece" />
                       </div>
                       <h4 className="time-title"> Ferragens União Colonial </h4>
                       <h5 className="time-semitag"> Vendedor </h5>
+                      <h3 className="year-mobile d-none"> 2017 - 2018 </h3>
                     </div>
                   </div>
                 </div>

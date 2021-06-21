@@ -33,3 +33,13 @@
 #page-landing .content-wrapper section.copyright .menu-copyright ul li a:hover {
   color: #cccccc;
 }
+
+@media (max-width: 800px) {
+  #page-landing .content-wrapper section.copyright .menu-copyright {
+    display: none;
+  }
+  #page-landing .content-wrapper section.copyright .text-copyright {
+    float: unset;
+    text-align: center;
+  }
+}

@@ -77,7 +77,7 @@ function About() {
               </div>
               <div className="line-divisor"></div>
               <h4><strong>Nome:</strong> Jackson Dhanyel Santin</h4>
-              <h4><strong>Anivesário:</strong> 09/09/1999</h4>
+              <h4><strong>Data de Nascimento:</strong> 09/09/1999</h4>
               <h4><strong>Nacionalidade:</strong> Brasileiro</h4>
               <h4><strong>Estado Civil:</strong> União Estável</h4>
               <div className="social-footer d-inline-block">
@@ -97,12 +97,6 @@ function About() {
                   <FiGithub size={26} color="#cecece" />
                 </a>
               </div>
-              <Link to="../files/curriculum-vitae.pdf" target="_blank" rel="noopener noreferrer" data-for="CV" data-tip="Download-tooltip" className="cv-download">
-                <FiDownload size={26} color="#cecece" />
-              </Link>
-              <ReactTooltip id="CV" place="top" type="dark" effect="solid">
-                <span>Download CV</span>
-              </ReactTooltip>
             </section>
           </div>
         </div>

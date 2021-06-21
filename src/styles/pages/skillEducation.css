@@ -117,3 +117,12 @@
 #page-landing .content-wrapper section.section-education p {
   font-size: 14px;
 }
+
+@media (max-width: 800px) {
+  #page-landing .content-wrapper section.section-education .time-year {
+    display: none;
+  }
+  #page-landing .content-wrapper section.section-education .year-mobile {
+    display: block;
+  }
+}

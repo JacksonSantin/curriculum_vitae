@@ -48,6 +48,15 @@
   font-size: 14px;
 }
 
+@media (max-width: 800px) {
+  #page-landing .content-wrapper section.section-experience .time-year {
+    display: none;
+  }
+  #page-landing .content-wrapper section.section-experience .year-mobile {
+    display: block;
+  }
+}
+
 #page-landing .content-wrapper section.section-address h5 {
   font-size: 14px;
 }
