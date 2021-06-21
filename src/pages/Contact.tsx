@@ -9,6 +9,7 @@ import emailjs from 'emailjs-com';
 import swal from 'sweetalert';
 
 function sendEmail(e) {
+
   e.preventDefault();
 
   emailjs.sendForm('gmailMessage', 'template_rdu5oja', e.target, 'user_0VFYQ4JjMn4RkCcdx9GRB')
@@ -30,7 +31,7 @@ function Contact() {
               <FiMail size={40} color="#cecece" />
               <div className="line-divisor"></div>
               <h3>Envie-me uma mensagem</h3>
-              <form onSubmit={sendEmail} className="form-horizontal" id="contactForm" noValidate>
+              <form onSubmit={sendEmail} className="form-horizontal" id="contactForm">
 
                 <div className="col-sm-12">
                   <input type="text" className="form-control" id="inputName" name="name" placeholder="Seu Nome" required />
