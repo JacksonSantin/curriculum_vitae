@@ -1,7 +1,6 @@
 User-agent: *
 
 Noindex: /404Page/
-Disallow: /404Page/
 Disallow: /images/
 
 Sitemap: https://jdssistemas.com/sitemap.xml
