@@ -66,9 +66,9 @@ function ExperienceTestimonials() {
                   <span> Contate-me via Whatsapp</span>
                 </ReactTooltip>
               </h5>
-              <a href="https://www.google.com/maps/place/R.+Duque+de+Caxias,+370+-+Vila+Angela+Borella,+Marau+-+RS,+99150-000/@-28.4508903,-52.2039039,17z/data=!3m1!4b1!4m5!3m4!1s0x94e29cb7856850c3:0xf421e6be86b680d0!8m2!3d-28.450895!4d-52.2017152" target="_blank" rel="noopener noreferrer" className="map-iframe">
+              <a target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/dir/?api=1&destination=-28.450819517910066,-52.201736659492" className="map-iframe">
                 <h4 className="map-open">
-                  <FiMapPin size={18} color="#cecece" /> Ver no Mapa
+                  <FiMapPin size={18} color="#cecece" /> Ver rota no Google Maps
                   <div className="line-divisor"></div>
                 </h4>
               </a>
