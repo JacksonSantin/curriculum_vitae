@@ -4,6 +4,8 @@ import ScrollButton from './components/ScrollButton';
 
 import Routes from './routes';
 
+import 'leaflet/dist/leaflet.css';
+
 import ReactGa from 'react-ga';
 
 import { useEffect } from 'react';
