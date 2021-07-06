@@ -11,3 +11,15 @@
   transform: scale(1.05);
   opacity: 1;
 }
+
+@media (max-width: 800px) {
+  #page-landing .content-wrapper section.section-projects section.projectsImg .cardImg {
+    margin: 11px;
+  }
+  #page-landing .content-wrapper section.section-projects section.projectsImg {
+    display: grid !important;
+  }
+  #page-landing .content-wrapper section.section-projects section.projectsImg {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
