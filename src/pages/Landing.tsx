@@ -4,6 +4,7 @@ import Footer from '../components/footer';
 import About from './About';
 import SkillEducation from './skillEducation';
 import ExperienceTestimonials from './experienceTestimonials';
+import Projects from './Projects';
 import Contact from './Contact';
 
 
@@ -19,6 +20,8 @@ function Landing() {
         <SkillEducation />
 
         <ExperienceTestimonials />
+
+        <Projects />
 
         <Contact />
 
