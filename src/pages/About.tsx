@@ -33,7 +33,7 @@ function About() {
               <IoBaseballOutline size={40} color="#cecece" />
               <div className="line-divisor"></div>
               <h4>Hobbies</h4>
-              <p> Programar | Jogar | Brincar com meu filho | passear | Assistir filmes e séries </p>
+              <p> Programar | Jogar | Brincar com meu filho | Passear | Assistir filmes e séries </p>
               <FaCode size={40} color="#cecece" />
               <div className="line-divisor"></div>
               <h4>Minhas stacks</h4>
@@ -83,7 +83,7 @@ function About() {
                 <a href="https://twitter.com/DhanyelJack" target="_blank" rel="noopener noreferrer">
                   <FiTwitter size={26} color="#cecece" />
                 </a>
-                <a href="https://www.instagram.com/jackson_santin/" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.instagram.com/umprogramadorcomoqlqroutro/" target="_blank" rel="noopener noreferrer">
                   <FiInstagram size={26} color="#cecece" />
                 </a>
                 <a href="https://www.linkedin.com/in/jackson-dhanyel-santin/" target="_blank" rel="noopener noreferrer">
