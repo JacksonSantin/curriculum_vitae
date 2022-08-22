@@ -1,0 +1,92 @@
+#page-landing .content-wrapper section.section-experience svg path {
+  fill: #cecece;
+}
+
+#page-landing .content-wrapper section.section-experience .time-line {
+  position: relative;
+}
+
+#page-landing .content-wrapper section.section-experience .time-item {
+  padding: 15px 0;
+  position: relative;
+}
+
+#page-landing .content-wrapper section.section-experience .time-year {
+  position: absolute;
+
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+
+  font-size: 40px;
+  color: #868686;
+  opacity: 0.8;
+  font-weight: 400;
+}
+
+#page-landing .content-wrapper section.section-experience .icon-holder-time {
+  display: inline-block;
+  position: absolute;
+
+  top: 32px;
+  left: -30px;
+  transform: translateX(-50%);
+
+  background: #202020;
+  font-size: 30px;
+  line-height: 0;
+  padding: 0 1px;
+  border-radius: 50%;
+}
+
+#page-landing .content-wrapper section.section-experience .time-title {
+  font-size: 18px;
+}
+
+#page-landing .content-wrapper section.section-experience .time-semitag,
+#page-landing .content-wrapper section.section-experience p {
+  font-size: 14px;
+}
+
+@media (max-width: 800px) {
+  #page-landing .content-wrapper section.section-experience .time-year {
+    display: none;
+  }
+  #page-landing .content-wrapper section.section-experience .year-mobile {
+    display: block !important;
+  }
+}
+
+#page-landing .content-wrapper section.section-address h5 {
+  font-size: 14px;
+}
+
+#page-landing .content-wrapper section.section-address h5 a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#page-landing .content-wrapper section.section-address h5 a:hover {
+  color: #cccccc;
+}
+
+#page-landing .content-wrapper section.section-address h5 a.wpp-link {
+  margin-left: 5px;
+}
+
+#page-landing .content-wrapper section.section-address .map-iframe {
+  text-decoration: none;
+}
+
+#page-landing .content-wrapper section.section-address .map-iframe .map-open {
+  position: relative;
+}
+
+#page-landing .content-wrapper section.section-address .social-footer a {
+  margin-right: 10px;
+  
+  display: inline-block;
+
+  text-decoration: none;
+  color: #ffffff;
+}

@@ -1,0 +1,96 @@
+#page-landing .content-wrapper section.section-aboutme h4 {
+  font-size: 18px;
+}
+
+#page-landing .content-wrapper section.section-aboutme p {
+  color: #ffffff;
+  text-align: justify;
+}
+
+#page-landing .content-wrapper section.section-aboutme .stacks {
+  margin-top: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#page-landing .content-wrapper section.section-aboutme .stacks ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#page-landing .content-wrapper section.section-aboutme .stacks ul li a {
+  margin: 0 10px;
+}
+
+#page-landing .content-wrapper section.section-aboutme .stacks ul li a img {
+  max-width: 100%;
+  width: 60px;
+}
+
+#page-landing
+  .content-wrapper
+  section.section-aboutme
+  .stacks
+  ul
+  li
+  a
+  img.js-stack {
+  width: 100px;
+  height: 65px;
+}
+
+#page-landing
+  .content-wrapper
+  section.section-aboutme
+  .stacks
+  ul
+  li
+  a
+  img.java-stack {
+  width: 100px;
+}
+
+#page-landing
+  .content-wrapper
+  section.section-aboutme
+  .stacks
+  ul
+  li
+  a
+  img.ts-stack {
+  width: 50px;
+}
+
+#page-landing .content-wrapper section.section-profile .img-profile {
+  position: relative;
+  margin: 20px 0 30px;
+}
+
+#page-landing .content-wrapper section.section-profile .img-profile img {
+  border-radius: 5px 30px 20px 30px;
+
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+#page-landing .content-wrapper section.section-profile h4 {
+  font: 600 17px Nunito, sans-serif;
+  margin: 20px 0;
+}
+
+#page-landing .content-wrapper section.section-profile .social-footer a {
+  margin-right: 10px;
+
+  display: inline-block;
+
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#page-landing .content-wrapper section.section-profile .cv-download {
+  float: right;
+  color: #ffffff;
+}

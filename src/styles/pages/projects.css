@@ -1,0 +1,25 @@
+#page-landing .content-wrapper section.section-projects section.projectsImg {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+#page-landing .content-wrapper section.section-projects section.projectsImg .cardImg .imgProject {
+  opacity: 0.3;
+  transition: opacity 900ms;
+}
+
+#page-landing .content-wrapper section.section-projects section.projectsImg .cardImg .imgProject:hover {
+  transform: scale(1.05);
+  opacity: 1;
+}
+
+@media (max-width: 800px) {
+  #page-landing .content-wrapper section.section-projects section.projectsImg .cardImg {
+    margin: 11px;
+  }
+  #page-landing .content-wrapper section.section-projects section.projectsImg {
+    display: grid !important;
+  }
+  #page-landing .content-wrapper section.section-projects section.projectsImg {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
