@@ -59,7 +59,7 @@ function Contact() {
                 </div>
 
                 <div className="col-sm-8">
-                  <button type="submit" id="form-submit" className="btn btn-cl">SEND MESSAGE</button>
+                  <button type="submit" id="form-submit" className="btn btn-cl">Enviar</button>
                 </div>
 
               </form>
