@@ -26,16 +26,16 @@ function SkillEducation() {
                             <u>Profissional</u>
                           </h4>
                         </div>
-                        <div className="skillbar clearfix" data-percent="30%">
+                        <div className="skillbar clearfix" data-percent="70%">
                           <div className="skillbar-title">
                             <span>JavaScript</span>
                           </div>
                           <div className="skillbar-bg"></div>
                           <div
                             className="skillbar-bar to-animate"
-                            style={{ width: "30%" }}
+                            style={{ width: "70%" }}
                           ></div>
-                          <div className="skillbar-bar-percent">30%</div>
+                          <div className="skillbar-bar-percent">70%</div>
                         </div>
                         <div className="skillbar clearfix" data-percent="30%">
                           <div className="skillbar-title">
@@ -48,27 +48,27 @@ function SkillEducation() {
                           ></div>
                           <div className="skillbar-bar-percent">30%</div>
                         </div>
-                        <div className="skillbar clearfix" data-percent="95%">
+                        <div className="skillbar clearfix" data-percent="100%">
                           <div className="skillbar-title">
                             <span>HTML</span>
                           </div>
                           <div className="skillbar-bg"></div>
                           <div
                             className="skillbar-bar to-animate"
-                            style={{ width: "95%" }}
+                            style={{ width: "100%" }}
                           ></div>
-                          <div className="skillbar-bar-percent">95%</div>
+                          <div className="skillbar-bar-percent">100%</div>
                         </div>
-                        <div className="skillbar clearfix" data-percent="90%">
+                        <div className="skillbar clearfix" data-percent="100%">
                           <div className="skillbar-title">
                             <span>CSS</span>
                           </div>
                           <div className="skillbar-bg"></div>
                           <div
                             className="skillbar-bar to-animate"
-                            style={{ width: "90%" }}
+                            style={{ width: "100%" }}
                           ></div>
-                          <div className="skillbar-bar-percent">90%</div>
+                          <div className="skillbar-bar-percent">100%</div>
                         </div>
                         <div className="skillbar clearfix" data-percent="20%">
                           <div className="skillbar-title">
@@ -81,16 +81,16 @@ function SkillEducation() {
                           ></div>
                           <div className="skillbar-bar-percent">20%</div>
                         </div>
-                        <div className="skillbar clearfix" data-percent="40%">
+                        <div className="skillbar clearfix" data-percent="80%">
                           <div className="skillbar-title">
                             <span>Vue</span>
                           </div>
                           <div className="skillbar-bg"></div>
                           <div
                             className="skillbar-bar to-animate"
-                            style={{ width: "40%" }}
+                            style={{ width: "80%" }}
                           ></div>
-                          <div className="skillbar-bar-percent">40%</div>
+                          <div className="skillbar-bar-percent">80%</div>
                         </div>
                       </div>
                     </div>
