@@ -36,9 +36,6 @@ $ git clone git@github.com:JacksonSantin/curriculum_vitae.git
 # Acesse a pasta do projeto no seu terminal/cmd
 $ cd curriculum_vitae
 
-# Vá para a pasta da aplicação Front End 
-$ cd web
-
 # Instale as dependências
 $ npm install 
 
