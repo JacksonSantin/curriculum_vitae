@@ -29,37 +29,16 @@
   width: 60px;
 }
 
-#page-landing
-  .content-wrapper
-  section.section-aboutme
-  .stacks
-  ul
-  li
-  a
-  img.js-stack {
+#page-landing .content-wrapper section.section-aboutme .stacks ul li a img.js-stack {
   width: 100px;
   height: 65px;
 }
 
-#page-landing
-  .content-wrapper
-  section.section-aboutme
-  .stacks
-  ul
-  li
-  a
-  img.java-stack {
+#page-landing .content-wrapper section.section-aboutme .stacks ul li a img.java-stack {
   width: 100px;
 }
 
-#page-landing
-  .content-wrapper
-  section.section-aboutme
-  .stacks
-  ul
-  li
-  a
-  img.ts-stack {
+#page-landing .content-wrapper section.section-aboutme .stacks ul li a img.ts-stack {
   width: 50px;
 }
 
@@ -93,4 +72,14 @@
 #page-landing .content-wrapper section.section-profile .cv-download {
   float: right;
   color: #ffffff;
+}
+
+@media (max-width: 800px) {
+  .stacks ul li {
+    display: grid;
+    place-items: center;
+  }
+  .stacks li a img {
+    margin-bottom: 1rem;
+  }
 }
