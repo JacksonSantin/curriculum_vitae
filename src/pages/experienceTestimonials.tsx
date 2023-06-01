@@ -94,7 +94,7 @@ function ExperienceTestimonials() {
               <div className="line-divisor"></div>
               <h3>Vamos Tomar um Café</h3>
               <h5>
-                <strong>Enderço:</strong> Rua Duque de Caxias, 370, Centro
+                <strong>Endereço:</strong> Rua Duque de Caxias, 370, Centro
               </h5>
               <h5>
                 <strong>E-mail:</strong>
