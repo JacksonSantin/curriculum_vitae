@@ -4,7 +4,7 @@ import HappyIcon from '../images/icon_happy.png';
 import ProffyIcon from '../images/icon_proffy.png';
 import ShoppingIcon from '../images/icon_shopping.png';
 import BuscaCepIcon from '../images/icon_buscaCEP.png';
-import DiscordIcon from '../images/discord_image_portfolio.png';
+import DiscordIcon from '../images/discord_image_portfolio.jpg';
 
 import ReactTooltip from "react-tooltip";
 
@@ -55,7 +55,7 @@ function Projects() {
                 </a>
                 <a href="https://github.com/JacksonSantin/bot-discord" target="_blank" rel="noopener noreferrer" data-for="Discord" data-tip="Discord-tooltip">
                   <div className="cardImg">
-                    <img src={DiscordIcon} alt="BuscaCEP icon" width="100%" className="imgProject" />
+                    <img src={DiscordIcon} alt="Discord icon" width="100%" className="imgProject" />
                   </div>
                   <ReactTooltip id="Discord" place="bottom" type="dark" effect="solid">
                     <span> Bot Lembrete - Discord </span>
