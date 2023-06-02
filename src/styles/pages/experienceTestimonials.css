@@ -57,6 +57,10 @@
   }
 }
 
+#page-landing .content-wrapper section.section-info.section-address {
+  padding-bottom: 30px;
+}
+
 #page-landing .content-wrapper section.section-address h5 {
   font-size: 14px;
 }
@@ -84,7 +88,7 @@
 
 #page-landing .content-wrapper section.section-address .social-footer a {
   margin-right: 10px;
-  
+
   display: inline-block;
 
   text-decoration: none;

@@ -3,7 +3,6 @@ import "../styles/pages/experienceTestimonials.css";
 import { FaWhatsapp } from "react-icons/fa";
 import {
   FiCircle,
-  FiCoffee,
   FiMapPin,
   FiFacebook,
   FiTwitter,
@@ -12,6 +11,8 @@ import {
   FiGithub,
 } from "react-icons/fi";
 import { GrBriefcase } from "react-icons/gr";
+
+import BuyCoffe from '../images/buy-me-coffe.png'
 
 import ReactTooltip from "react-tooltip";
 
@@ -90,9 +91,14 @@ function ExperienceTestimonials() {
           </div>
           <div className="col-sm-4">
             <section className="section-info section-address">
-              <FiCoffee size={40} color="#cecece" />
+              <a
+                href="https://www.buymeacoffee.com/jackdhanyels"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={BuyCoffe} alt="Buy Me a Coffe" className="btn-buymecoffe" width="40%" />
+              </a>
               <div className="line-divisor"></div>
-              <h3>Vamos Tomar um Café</h3>
               <h5>
                 <strong>Endereço:</strong> Rua Duque de Caxias, 370, Centro
               </h5>

@@ -10,19 +10,19 @@
   display: block;
   margin-bottom: 10px;
   width: 100%;
-  
+
   transition: 0.4s linear;
   transition-property: width, background-color;
-  
+
   padding: 15px 0;
 }
 
 #page-landing .content-wrapper section.section-skill .skillbar .skillbar-title {
   position: relative;
-  
+
   font-size: 14px;
   color: #ffffff;
-  
+
   z-index: 100;
 
   display: block;
@@ -53,14 +53,14 @@
   z-index: 10;
 
   position: absolute;
-  right: 0;
+  left: 0;
 
   background: #353535;
 }
 
 #page-landing .content-wrapper section.section-skill .skillbar .skillbar-bar-percent {
   position: absolute;
-  
+
   left: 0;
   top: 15px;
 
