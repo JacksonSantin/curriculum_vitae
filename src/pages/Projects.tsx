@@ -5,6 +5,7 @@ import ProffyIcon from '../images/icon_proffy.png';
 import ShoppingIcon from '../images/icon_shopping.png';
 import BuscaCepIcon from '../images/icon_buscaCEP.png';
 import DiscordIcon from '../images/discord_image_portfolio.jpg';
+import ApiWebIcon from '../images/icon_project_web_api.jpg'
 
 import ReactTooltip from "react-tooltip";
 
@@ -59,6 +60,14 @@ function Projects() {
                   </div>
                   <ReactTooltip id="Discord" place="bottom" type="dark" effect="solid">
                     <span> Bot Lembrete - Discord </span>
+                  </ReactTooltip>
+                </a>
+                <a href="https://github.com/JacksonSantin/api-web-person" target="_blank" rel="noopener noreferrer" data-for="ApiWeb" data-tip="ApiWeb-tooltip">
+                  <div className="cardImg">
+                    <img src={ApiWebIcon} alt="ApiWeb icon" width="100%" className="imgProject" />
+                  </div>
+                  <ReactTooltip id="ApiWeb" place="bottom" type="dark" effect="solid">
+                    <span> Api RESTful com aplicação web</span>
                   </ReactTooltip>
                 </a>
               </section>
